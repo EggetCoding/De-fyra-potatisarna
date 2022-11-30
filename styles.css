@@ -1,0 +1,11 @@
+.podcasts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.podcasts1{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    color: black;
+}
