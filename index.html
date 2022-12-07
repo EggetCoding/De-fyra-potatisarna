@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
+<body class="body">
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -24,7 +24,14 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="images/SmallPotatoesCool.png" style="max-height: 600px;" width="1500" height="800" >
+  <div class="pictureContainer">
+    <img class="w3-image" src="images/podcastBild.png" style="max-height: 600px;" width="1500" height="800" >
+    <h1 class="header">
+      De fyra Potatisarna
+    </h1>
+  </div>
+  
+  
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white">  <span class="w3-hide-small w3-text-light-grey"></span> <b></b></h1>
   </div>
@@ -37,8 +44,8 @@
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Podcasts</h3>
   </div>
-  <div class="podcasts">
-    <div class="podcast1">
+  <div class="podcastHolder">
+    <div class="podcast">
       
      
       <div id="audio" style="display: flex; justify-content: center;">
@@ -123,7 +130,7 @@
   
 <!-- Image of location/map -->
 <div class="w3-container">
-  <img src="images/SexyPotato.jpg" class="w3-image" style="width:100%">
+  <img src="images/MicroPhonePodcast.jpg" class="w3-image" style="width:100%">
 </div>
 
 <!-- End page content -->
