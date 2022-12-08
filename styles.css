@@ -9,12 +9,19 @@
 }
 
 .header{
+   padding: auto;
+   font-size: 300%;
+}
+.headerBanner{
     position: absolute;
     top: 10%;
-    left: 19%;
-    font-size: 80px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    left: 5%;
+    right: 5%;
+    bottom: 73%;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .podcastHolder{
     display: flex;
     justify-content: space-evenly;
@@ -23,17 +30,20 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 150px;
+    height: 25%;
     width: 35%;
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
-    background-color: rgb(30, 4, 22);
     padding-top: 2%;
-    text-align: center; 
+    text-align: center;
+    font-size: 100%; 
     color: white; 
     border-radius: 5%;  
 }
+#quoteStyle{
+    font-style: italic;
+}
 #audio{
-
+    display: flex; 
+    justify-content: center;
+    width: 90%;
+    height: 25%;
 }
