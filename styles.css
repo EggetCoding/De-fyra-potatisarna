@@ -4,11 +4,13 @@
 }
 
 .pictureContainer{
-    background-image: url(images/podcastBild.png);
+    background-image: url(images/podcastStudio.jpg);
+    background-position: center;
     text-align: center;
     width: 100%;
-    height: 859px;
+    height: 800px;
     background-repeat: no-repeat;
+    object-fit: fill;
     
 }
 #text{
